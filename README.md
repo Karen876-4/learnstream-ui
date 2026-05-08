@@ -1,16 +1,71 @@
-# React + Vite
+# LearnStream UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Proyecto desarrollado en React + Vite para implementar los patrones de diseño UI:
 
-Currently, two official plugins are available:
+- CardSystem
+- FilterBar
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+El sistema permite explorar conferencias técnicas mediante tarjetas dinámicas y filtros en tiempo real.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+# Tecnologías Utilizadas
 
-## Expanding the ESLint configuration
+- React
+- Vite
+- JavaScript
+- CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+# Funcionalidades
+
+- Renderizado dinámico de tarjetas
+- Búsqueda en tiempo real
+- Filtros por área
+- Filtros por formato
+- Grid responsive
+- Mensaje de “sin resultados”
+
+---
+
+# Historias de Usuario
+
+## Historia de Usuario 1
+
+Como estudiante de tecnología,  
+quiero buscar conferencias por nombre mediante una barra de búsqueda,  
+para encontrar rápidamente contenido relacionado con mis intereses académicos.
+
+---
+
+## Historia de Usuario 2
+
+Como usuario de LearnStream,  
+quiero filtrar las conferencias por área de conocimiento y formato,  
+para visualizar únicamente el contenido que necesito.
+
+---
+
+## Historia de Usuario 3
+
+Como usuario de la plataforma,  
+quiero visualizar las conferencias organizadas en tarjetas dinámicas,  
+para navegar el catálogo de manera clara, moderna y ordenada.
+
+---
+
+# Estructura del Proyecto
+
+```bash
+src/
+ ├── components/
+ │    ├── Card.jsx
+ │    ├── FilterBar.jsx
+ │
+ ├── data/
+ │    ├── videos.js
+ │
+ ├── App.jsx
+ ├── main.jsx
+ ├── styles.css
